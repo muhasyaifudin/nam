@@ -1,0 +1,6 @@
+Set Up Laravel with Postgre
+
+=> Setting up default driver on laravel project (config/database.php)
+=> Seeting php ini file (uncomment the lines extension=pdo_pgsql and extension=pgsql)
+=> make sure extension_dir is set to the proper directory. It should be a folder called extensions or ext or similar inside your PHP install directory.
+=> Finally, copy libpq.dll from C:\wamp\bin\php\php5.*\ into C:\wamp\bin\apache*\bin
